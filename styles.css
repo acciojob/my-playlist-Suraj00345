@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+*{
+	background-color: rgb(204,204,204)
+}
+h1,h2{
+	text-align:center;
+}
+video ,audio,ul {
+	background-color:rgb(255,255,255);
+	padding:10px;
+	border-radius:5px;
+	width:500px
+}

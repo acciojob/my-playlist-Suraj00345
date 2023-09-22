@@ -1,13 +1,32 @@
-/*  your css code here. If applicable */
-*{
-	background-color: rgb(204,204,204)
+body{
+	background-color:rgb(204, 204, 204);
 }
-h1,h2{
+.player_one{
+	background-color:white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius:10px;
+	border-color:black;
+	border: solid
+}
+video,audio{
+	width:540px;
+}
+.player_two{
+	background-color:white;
+	width:540px;
+	padding:10px;
+	margin:auto;
+	border-radius:10px;
+	border-color:black;
+	border: solid
+}
+h1{
 	text-align:center;
 }
-video ,audio,ul {
-	background-color:rgb(255,255,255);
-	padding:10px;
-	border-radius:5px;
-	width:500px
+h2{
+	text-align:center;
+}
+a{
+	text-decoration-line: none;
 }
